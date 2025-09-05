@@ -14,8 +14,8 @@
        <div class="container">
         <div class="form-box" id="login-box">
         <h2>Login</h2>
-        <input type="text" class="email" id="email" placeholder="Email" required>
-        <input type="password" class="password" id="password"  placeholder="Password" required><br>
+        <input type="text" class="email" id="input" placeholder="Email" required>
+        <input type="password" class="password" id="input"  placeholder="Password" required><br>
         <button type="submit" class="btn">Login</button>
         <p>Don't have an account? <a href="#" onclick="document.getElementById('login-box').style.display='none'; document.getElementById('register-box').style.display='block';">Register</a></p>
 
