@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Login Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/event_management_portal/view/css/login.css">
+        <link rel="stylesheet" href="/event_management_portal/view/css/external.css">
 
+       
+        
     </head>
     <body>
-        <h2> Login Page </h2>
-        <form>
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fid">ID:</label>
-        <input for="fid" id="fid" name="fid"><br><br>
-        <input type="submit" Value="Submit">
-        </form>
+       <div class="container">
+        <div class="form-box" id="login-box">
+        <h2>Login</h2>
+        <input type="text" class="email" placeholder="Email" required>
+        <input type="password" class="password" placeholder="Password" required>
+        <button type="submit" class="btn">Login</button>
+        <p>Don't have an account? <a href="#" onclick="document.getElementById('login-box').style.display='none'; document.getElementById('register-box').style.display='block';">Register</a></p>
 
+       
+       
+       </div>
+      
     </body>
 </html>
