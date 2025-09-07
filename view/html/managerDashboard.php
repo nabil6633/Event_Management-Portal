@@ -15,14 +15,36 @@
         <label class="logo">EventM</label>
         <input type="text" placeholder="Search..">
     </nav>  
-    <nav>  
-       <ul>
-        <li><a href="#">Event Manage</a></li>
-        <li><a href="#">Booking Handling</a></li>
-        <li><a href="#">Service Manage<a></li>
 
+
+    <nav class="navbar">  
+       <ul>
+        <li class="dropdown">
+            <a href="#">Event Manage</a>
+            <div class="dropdown-content">
+                <a href="#">Event Listing</a>
+                <a href="#">New Event Add</a>
+                <a href="#">Remove Event</a>
+            </div>  
+
+         <li class="dropdown">
+            <a href="#">Booking Handling</a>
+            <div class="dropdown-content">
+                <a href="#">Add Booking</a>
+                <a href="#">Remove Booking</a>
+                <a href="#">Alter Booking</a>
+            </div>  
+
+        <li class="dropdown">
+            <a href="#">Service Manage</a>
+            <div class="dropdown-content">
+                <a href="#">Service User Listing</a>
+                
+            </div>  
+
+        </li>
        </ul>
-     
+
     </nav>
     
 </body>
