@@ -1,3 +1,3 @@
 <?php
-include 'view/html/program.php';
+include 'view/html/managerDashboard.php';
 ?>
