@@ -25,15 +25,17 @@
                 <a href="#">Event Listing</a>
                 <a href="#">New Event Add</a>
                 <a href="#">Remove Event</a>
-            </div>  
+            </div> 
+        </li>    
 
-         <li class="dropdown">
+        <li class="dropdown">
             <a href="#">Booking Handling</a>
             <div class="dropdown-content">
                 <a href="#">Add Booking</a>
                 <a href="#">Remove Booking</a>
                 <a href="#">Alter Booking</a>
-            </div>  
+            </div> 
+        </li>   
 
         <li class="dropdown">
             <a href="#">Service Manage</a>
