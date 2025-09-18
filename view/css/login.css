@@ -13,6 +13,7 @@
 }
 
 .form-box {
+
     align-items: center;
     width: 100%;
     height: auto;
@@ -22,6 +23,7 @@
     border-radius: 40px;
     box-shadow: 2px 5px 10px rgba(245, 239, 239, 0.482);
 }
+
 h2
 {
     text-align: auto;
@@ -56,7 +58,27 @@ h2
     border-radius: 25px;
     cursor: pointer;
 }
+#re{
+    width:100%;
+   position:center;
+    border: 30px;
+    text-align: center;
+    max-width:auto;
+    font-size: 14px;
+    padding:5px;
+    margin:20px;
+}
+#fpd{
+    display:block;
+    float: none ;
+    margin: 10px;
     
-
+    text-align: right;
+    font-size: 14px;
+    padding: 5px;    
+}
+checkbox{
+    margin: 10px;
+}
 
 
