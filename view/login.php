@@ -24,17 +24,7 @@
         <p id="fpd"> <a href="#">Forgot Password?</a></p>
         <p id="re">Don't have an account? <a href="#" onclick="document.getElementById('login-box').style.display='none'; document.getElementById('register-box').style.display='block';">Register</a></p>
         </div>
-         <!-- Forget Password -->
-        <div class="form-box" id="forget-box">
-        <h2>Forget Password</h2>
-        <input type="text" class="email" id="input" placeholder="Email" required><br>
-        <button type="submit" class="btn">Submit</button>                   
-        <p id="lo">Remembered? <a href="#" onclick="document.getElementById('forget-box').style.display='none'; document.getElementById('login-box').style.display='block';">Login</a></p>
-        </div>
-       
-            
-
-      
+    
        </div>
       
     </body>
