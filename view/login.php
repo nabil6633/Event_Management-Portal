@@ -1,3 +1,8 @@
+<?php
+?>
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,7 +22,8 @@
         <!-- Login -->
         <div class="form-box active" id="login-box">
         <h2>Login</h2>
-        <input type="text" class="input" id="email" placeholder="Email" required>
+       
+        <input type="text" class="input" id="userName" placeholder="User Name" required>
         <input type="password" class="input" id="password"  placeholder="Password" required><br>
         <input type="checkbox" class="check-box" id="showpassword">Show Password<br>
         <button type="submit" class="btn">Login</button>
