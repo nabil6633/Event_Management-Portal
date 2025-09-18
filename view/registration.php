@@ -12,12 +12,14 @@
       
         <div class="form-box" id="register-box">
                 <h2>Register</h2> 
-                <input type="text" class="name" id="input" placeholder="Full Name" required> 
-                <input type="text" class="email" id="input" placeholder="Email" required>
-                <input type="password" class="password" id="input" placeholder="New Password" required>
-                <input type="password" class="confirm-password" id="input" placeholder="Confirm password" required><br>
+                <input type="text" class="input" id="name" placeholder="Full Name" required> 
+                <input type="text" class="input" id="email" placeholder="Email" required>
+                <input type="password" class="input" id="password" placeholder="New Password" required>
+                <input type="password" class="input" id="password" placeholder="Confirm password" required><br>
                 <button type="submit" class="btn">Register</button> 
-                <p>Already have an account? <a href="#" onclick="document.getElementById('register-box').style.display='none'; document.getElementById('login-box').style.display='block';">Login</a></p>
+                <p id="re">Already have an account? <a href="/event_management_portal/view/login.php">Login</a></p>
+
+               
         </div>
 
     </body>
