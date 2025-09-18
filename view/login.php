@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/event_management_portal/view/css/login.css">
+        <link rel="stylesheet" href="/event_management_portal/view/css/external.css">
+
+       
+        
+    </head>
+    <!-- Login, Resitration & Forget Password -->
+    <body>
+
+       <div class="container">
+        <!-- Login -->
+        <div class="form-box active" id="login-box">
+        <h2>Login</h2>
+        <input type="text" class="email" id="input" placeholder="Email" required>
+        <input type="password" class="password" id="input"  placeholder="Password" required><br>
+        <button type="submit" class="btn">Login</button>
+        <input type="checkbox" class="check-box">Remember me<br>
+        <p id="fpd"> <a href="#">Forgot Password?</a></p>
+        <p id="re">Don't have an account? <a href="#" onclick="document.getElementById('login-box').style.display='none'; document.getElementById('register-box').style.display='block';">Register</a></p>
+        </div>
+         <!-- Forget Password -->
+        <div class="form-box" id="forget-box">
+        <h2>Forget Password</h2>
+        <input type="text" class="email" id="input" placeholder="Email" required><br>
+        <button type="submit" class="btn">Submit</button>                   
+        <p id="lo">Remembered? <a href="#" onclick="document.getElementById('forget-box').style.display='none'; document.getElementById('login-box').style.display='block';">Login</a></p>
+        </div>
+       
+            
+
+      
+       </div>
+      
+    </body>
+</html>
